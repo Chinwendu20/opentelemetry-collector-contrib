@@ -1,7 +1,7 @@
 name: build-and-test
 on:
   push:
-    branches: [ main ]
+    branches: [ Windows-ARM/ARM64-support ]
     tags:
       - 'v[0-9]+.[0-9]+.[0-9]+*'
   pull_request:
@@ -328,10 +328,6 @@ jobs:
             arch: arm
           - os: darwin
             arch: ppc64le
-          - os: windows
-            arch: arm
-          - os: windows
-            arch: arm64
           - os: windows
             arch: ppc64le
     steps:
