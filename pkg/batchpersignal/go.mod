@@ -3,8 +3,8 @@ module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchpersig
 go 1.18
 
 require (
-	github.com/stretchr/testify v1.8.0
-	go.opentelemetry.io/collector/pdata v0.62.0
+	github.com/stretchr/testify v1.8.1
+	go.opentelemetry.io/collector/pdata v0.63.1
 )
 
 require (
